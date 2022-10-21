@@ -107,3 +107,4 @@ int main()
     if(999 ) printf("999成立\n");
     if( "a=0" ) printf("不管什麼東西,幾乎都成立\n");
 }
+# W
