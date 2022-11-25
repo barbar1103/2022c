@@ -28,6 +28,7 @@ int main()
 ```
 ## step01-1
 畫星星
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -36,6 +37,7 @@ int main()
         printf("鷹架:%d樓 %d星\n", i, star);///先寫出第一個左手迴圈,鷹架確定OK
     }
 }
+```
 /*   有點像2倍 2倍-1
      *     1樓 1星
     ***    2樓 3星
@@ -43,6 +45,7 @@ int main()
   *******  1樓 7星
  ********* 1樓 9星
  ## step02-2
+ ```cpp
  #include <stdio.h>
 int main()
 {
@@ -59,8 +62,10 @@ int main()
         printf(" 鷹架:%d樓 %d空格 %d星\n", i, space, star);
     } ///(1)樓層鷹架
 }
+```
 ///
 ## step03-3
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -73,7 +78,9 @@ int main()
     }
     printf("找到ans:%d", ans);
 }
+```
 ## step04-4
+```
 #include <stdio.h>
 int main()
 {
@@ -90,7 +97,9 @@ int main()
     }
     printf("中的是:%d", b);
 }
+```
 ## step05-5
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -107,8 +116,10 @@ int main()
     if(999 ) printf("999成立\n");
     if( "a=0" ) printf("不管什麼東西,幾乎都成立\n");
 }
+```
 # Week07
 ## step01-1
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -119,7 +130,9 @@ int main()
     long long int a=1234567812345678;
     printf("%lld\n", a);
 }
+```
 ## step02-2
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -132,7 +145,9 @@ int main()
     }
     printf("答案是:%lld\n", ans);
 }
+```
 ## step03-3
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -148,7 +163,9 @@ int main()
     }
     printf("答案是:%lld\n", b);
 }
+```
 ## step04-4
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -159,8 +176,10 @@ int main()
         n = n /10;
     }
 }
+```
 # Week08
 ##step01-1
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -176,7 +195,9 @@ int main()
         printf("\n");
     }
 }
+```
 ##step01-2
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -196,7 +217,9 @@ int main()
 	}
 
 }
+```
 ##step01-3
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -211,7 +234,9 @@ int main()
     if(bad==0) printf("%d 是質數(沒有壞掉", n);
     else printf("%d 不是質數(早就壞掉了", n);
 }
+```
 ##step01-4
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -227,8 +252,10 @@ int main()
         if(bad==0) printf("%d ", n);
     }
 }
+```
 # Week10
 ##step01-0
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -239,7 +266,9 @@ int main()
     printf("a[2]:%d\n", a[2]);
     printf("a[3]:%d\n", a[3]);
 }
+```
 ##step01-1
+```cpp
 #include <stdio.h>
 int main()
 {
@@ -251,6 +280,7 @@ int main()
         printf("%d ", a[i] );
     }
 }
+```
 # Week11
 step01-1
 ```cpp
